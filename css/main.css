@@ -1,0 +1,35 @@
+.header{
+  color: white;
+}
+
+.listItem{
+  margin-top: 2px;
+  margin-bottom: 3px;
+  line-height: 15px;
+  font-size: 12px;
+  background: #CFEAD9;
+  border-radius: 5px;
+  padding: 4px;
+}
+.list{
+  text-align: left;
+  padding-left: 0px;
+}
+
+.mongo{
+  height: 12px;
+  width: 10.5px;
+}
+
+.bio{
+  font-size: 22px;
+}
+
+.title{
+  margin-top: 10px;
+  font-family: 'Times New Roman';
+}
+.Iphone{
+  padding-top: 10%;
+  padding-right: 0px;
+}
