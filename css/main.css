@@ -33,3 +33,33 @@
   padding-top: 10%;
   padding-right: 0px;
 }
+.text-center{
+  margin-bottom: 40px;
+}
+.mockup{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.text{
+  margin-top: 20%;
+}
+
+.testy{
+  text-align: center;
+  display: none;
+  z-index: 1;
+  margin-left: 10px;
+  position: absolute;
+  height: 100%;
+  background-color: black;
+  opacity: .7;
+  color: white;
+  border-radius: 5px;
+}
+.mockup:hover .testy{
+  display: inline-block;
+}
+.mockup:hover .device{
+  opacity: .8;
+}
