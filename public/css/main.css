@@ -1,0 +1,100 @@
+.header{
+  color: white;
+}
+
+.listItem{
+  margin-top: 2px;
+  margin-bottom: 3px;
+  line-height: 15px;
+  font-size: 12px;
+  background: #CFEAD9;
+  border-radius: 5px;
+  padding: 4px;
+}
+.list{
+  text-align: left;
+  padding-left: 0px;
+}
+
+.mongo{
+  height: 12px;
+  width: 10.5px;
+}
+
+.bio{
+  font-size: 22px;
+}
+
+.title{
+  margin-top: 10px;
+  font-family: 'Times New Roman';
+}
+
+.service-header{
+  padding-top: 50px;
+  background-color: #3498db;
+}
+.mockup-section{
+  margin-top: 8%;
+}
+
+.Iphone{
+  padding-top: 10%;
+  padding-right: 0px;
+}
+.text-center{
+  margin-bottom: 40px;
+}
+.mockup{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.testy{
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  color: blue;
+  height: 100%;
+  width: auto;
+}
+
+.work-header{
+  color: white;
+}
+
+.mockup:hover{
+  opacity: .75;
+  border-radius: 10px;
+}
+
+#contact{
+  background-color: silver;
+}
+
+.description{
+  margin-top: 0px;
+  margin-top: 10px;
+}
+
+.exit{
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+      margin-top: 10px;
+}
+
+
+
+.special{
+  visibility: hidden;
+  position: absolute;
+  text-align: left;
+  background-color: white;
+  right: 0px;
+  margin-bottom: 50px;
+  border-top: .5px solid #00C7AB;
+
+}
+.animated{ 
+  visibility: visible !important; 
+}
