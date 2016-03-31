@@ -83,7 +83,9 @@
       margin-top: 10px;
 }
 
-
+.box-shadow-8dp {
+    box-shadow: 6px -6px 10px -3px rgba(128,128,128, .8);
+}
 
 .special{
   visibility: hidden;
@@ -92,7 +94,7 @@
   background-color: white;
   right: 0px;
   margin-bottom: 50px;
-  border-top: .5px solid #00C7AB;
+/*  border-top: .5px solid #00C7AB;*/
 
 }
 .animated{ 
