@@ -397,23 +397,37 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-6">
-                    <div class="col-xs-6">
-                        <i class="fa fa-linkedin large"></i>
-                    </div>
-                    <div class="col-xs-6">
-                        <i class="fa fa-angellist large"></i>
-                    </div>
-                    <div class="col-xs-6">
-                        <i class="fa fa-github large"></i>
-                    </div>
-                    <div class="col-xs-6">
-                        <i class="fa fa-twitter large"></i>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-                    </div>
-                    </div>
+                        <h1>Reach me on social.</h1>
+                        <div class="col-xs-6">
+                            <i class="fa fa-linkedin large"></i>
+                        </div>
+                        <div class="col-xs-6">
+                            <i class="fa fa-angellist large"></i>
+                        </div>
+                        <div class="col-xs-6">
+                            <i class="fa fa-github large"></i>
+                        </div>
+                        <div class="col-xs-6">
+                            <i class="fa fa-twitter large"></i>
+                        </div>
                 </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        
+                            <h1>Reach me via email.</h1>
+                            <div class="form-group">
+                            <input class="input form-control" id="subject" style="width:50%" type="text" placeholder="Subject" /><br>
+                            <textarea class="input form-control" id="content" style="width:75%" cols="40" rows="5" placeholder="Message"></textarea><br>
+                            <button class="input form-control" style="width:25%" id="send_email">Send Email</button>
+                            <span id="message"></span>
+                        </div>
+                </div>
+
             </div>
+        </div>
+            <div id="container">
+
         </div>
 
     </section>
@@ -436,10 +450,26 @@
     <!-- Custom Theme JavaScript -->
     <script>
 
-    // Prevent carousel from auto
-    // $('#carousel1').carousel({
-    //     interval: false;
-    // })
+
+$(document).ready(function(){
+    var from,to,subject,text;
+    $("#send_email").click(function(){      
+        to=$("#to").val();
+        subject=$("#subject").val();
+        text=$("#content").val();
+        $("#message").text("Sending E-mail...Please wait");
+        $.get("http://localhost:3000/send",{to:to,subject:subject,text:text},function(data){
+        if(data=="sent")
+        {
+            $("#message").empty().html(" Email has been sent. Thank you!");
+        }
+
+});
+    });
+});
+
+
+
 
     // Function for next slide on carousel
     $(".next-slide").click(function(){
