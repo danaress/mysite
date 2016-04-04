@@ -4,11 +4,60 @@ p{
 }
 
 #about{
-  background-color: #eaeaea;
-}
-#contact{
-  background-color: #eaeaea;
+  background-color: #ECF0F1;
+  padding-top: 0px; 
   height: auto;
+}
+
+#contact{
+  background-color: #ECF0F1;
+  height: auto;
+}
+
+.background{
+  text-align: center;
+  background-color: rgba(255,255,255, .8);
+  margin-top: 10%;
+  top:0px;
+}
+
+.headline{
+font-size: 7em;
+  color: #2980B9;
+  margin-top: 0px;
+  padding-top: -10px;
+  margin-bottom: 0px;
+  opacity: 1;
+}
+.subHeadline{
+  font-size: 3em;
+  color: #2980B9;
+  padding-bottom: 5px;
+}
+
+.findOut{
+  margin-top: 100px;
+  color: #2980B9;
+  opacity: .8;
+}
+.findOut2{
+  margin-top: -50px;
+margin-bottom: 50px;
+  color: #2980B9;
+;  opacity: .8;
+}
+
+.findOut3{
+  margin-top: 50px;
+  background-color: #ECF0F1;
+  color: #2980B9;
+  opacity: .8;
+}
+
+.h1Big{
+  font-size: 50px;
+  margin-bottom: 0px;
+  vertical-align: middle;
 }
 
 .project-link{
@@ -19,8 +68,6 @@ p{
 }
 .header{
   color: white;
-}
-.tessst{
   text-align: center;
 }
 
@@ -46,18 +93,18 @@ p{
   padding: 4px;
 }
 
-#about{
-  padding-top: 0px;
-  padding-bottom: 100px;
+.about-header{
+  background-color: #34495E;
 }
 
-.about-header{
-  background-color: #6AB0AA;
+.textcenter{
+  text-align: center;
 }
 
 .list{
   text-align: left;
   padding-left: 0px;
+    color: #545454;
 }
 
 .mongo{
@@ -77,22 +124,52 @@ p{
 }
 
 .btn-dark{
-  background-color: #37465D;
+  background-color: black;
+  opacity: .8;
+  color: silver;
 }
 
-.btn-dark:hover{
-  background-color: #37465D;
+.btn-light:hover{
+  background-color: white;
+  color: #2980B9;
+  opacity: 1;
+}
+
+.btn-light:active{
+  background-color: white;
+    color: #2980B9;
   opacity: .8;
 }
 
-.btn-dark:active{
-  background-color: #37465D;
+.btn-light:focus{
+  background-color: white;
+  color: #2980B9;
   opacity: .8;
 }
 
-.btn-dark:focus{
-  background-color: #37465D;
+.findOut3:hover{
+  margin-top: 50px;
+  background-color: #ECF0F1;
+  color: #2980B9;
+  opacity: 1;
+}
+
+.findOut3:active{
+  margin-top: 50px;
+  background-color: #ECF0F1;
+  color: #2980B9;
   opacity: .8;
+}
+
+.findOut3:focus{
+  margin-top: 50px;
+  background-color: #ECF0F1;
+  color: #2980B9;
+  opacity: .8;
+}
+
+.bluefont{
+  color: #34495E;
 }
 
 
@@ -100,12 +177,10 @@ p{
   margin-top: 15px;
   margin-bottom: 15px;
   font-family: 'Times New Roman';
-  color: #37465D;
 }
 
 .service-header{
-
-  background-color: #FCA65F;
+  background-color: #27AE60;
 }
 .mockup-section{
   margin-top: 8%;
@@ -115,13 +190,17 @@ p{
   padding-top: 10%;
   padding-right: 0px;
 }
+
 .text-center{
   margin-bottom: 40px;
 }
+
 .mockup{
   padding-left: 40px;
   padding-right: 40px;
 }
+
+
 
 .testy{
   z-index: 1;
@@ -142,10 +221,9 @@ p{
   border-radius: 10px;
 }
 
-#contact{
-  background-color: silver;
+.contact-header{
+  background-color: #E67E22;
 }
-
 .description{
   color: #37465D;
   margin-top: 0px;
@@ -169,6 +247,7 @@ p{
   background-color: white;
   right: 0px;
   margin-bottom: 50px;
+  z-index: 1;
 /*  border-bottom: 5px solid #00C7AB;
 border-top: 5px solid #00C7AB;*/
 
@@ -176,11 +255,14 @@ border-top: 5px solid #00C7AB;*/
 .animated{ 
   visibility: visible !important; 
 }
-
+.form-group{
+  margin-top: 50px;
+}
 .large{
   text-align: left;
-  font-size: 50px;
+  font-size: 65px;
   margin-top: 40px;
   margin-bottom: 40px;
+  padding-top: none;
 }
 
