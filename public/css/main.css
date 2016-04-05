@@ -1,5 +1,5 @@
 p{
-  color: #545454;
+  color: #808080;
   font-size: 15px;
 }
 
@@ -27,7 +27,7 @@ p{
 
 .headline{
   font-size: 8em;
-  color: #2980B9;
+  color: #426E86;
   margin-top: 0px;
   padding-top: -10px;
   margin-bottom: 0px;
@@ -35,25 +35,25 @@ p{
 }
 .subHeadline{
   font-size: 3em;
-  color: #2980B9;
+  color: #426E86;
   padding-bottom: 5px;
 }
 
 .btn-light{
-  color: #2980B9;
+  color: rgb(66,110,134);
   opacity: .8;
 }
 
 .findOut{
   margin-top: 100px;
-  color: #2980B9;
+  color: #426E86;
   opacity: .8;
   border-radius: 0px;
 }
 .findOut2{
 /*  margin-top: -50px;*/
 /*  margin-bottom: 50px;*/
-  color: #2980B9;
+  color: #426E86;
   opacity: .8;
   border-radius: 0px;
 }
@@ -61,7 +61,7 @@ p{
 .findOut3{
   margin-top: 50px;
   background-color: #ECF0F1;
-  color: #2980B9;
+  color: #426E86;
   opacity: .8;
   border-radius: 0px;
 }
@@ -70,17 +70,32 @@ p{
   margin-bottom: 25px;
 }
 
-.h1Big{
+.h1About{
+  font-size: 50px;
+  margin-bottom: 0px;
+  vertical-align: middle; 
+}
+
+.h1Work{
+  font-size: 50px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+.h1Contact{
+  margin-top: 30px;
+  color: #426E86;
   font-size: 50px;
   margin-bottom: 0px;
   vertical-align: middle;
 }
 
 .project-link{
-  color: #337ab7;
+  color: #808080;
 }
 .project-link:hover{
-  color: #37465D;
+  text-decoration: none;
+  color: #426E86;
 }
 .header{
   color: white;
@@ -104,13 +119,13 @@ p{
   margin-bottom: 3px;
   line-height: 15px;
   font-size: 12px;
-  background: rgba(230,126,34, .5);
+  background: rgba(162, 222, 208, .5);
   border-radius: 5px;
   padding: 4px;
 }
 
 .about-header{
-  background-color: #34495E;
+  background-color: #2F3131;
 }
 
 .textcenter{
@@ -131,8 +146,8 @@ p{
 .streak{
   margin-top: 5px;
   margin-bottom: 5px;
-  font-family: "Times New Roman";
-  color: #34495E;
+  font-family: "Times New Roman", serif;
+  color: #426E86;
 }
 
 .bio{
@@ -147,56 +162,56 @@ p{
 
 .btn-light:hover{
   background-color: white;
-  color: #2980B9;
+  color: #426E86;
   opacity: 1;
 }
 
 .btn-light:active{
   background-color: white;
-    color: #2980B9;
+    color: #426E86;
   opacity: .8;
 }
 
 .btn-light:focus{
   background-color: white;
-  color: #2980B9;
+  color: #426E86;
   opacity: .8;
 }
 
 .findOut3:hover{
   margin-top: 50px;
   background-color: #ECF0F1;
-  color: #2980B9;
+  color: #426E86;
   opacity: 1;
 }
 
 .findOut3:active{
   margin-top: 50px;
   background-color: #ECF0F1;
-  color: #2980B9;
+  color: #426E86;
   opacity: .8;
 }
 
 .findOut3:focus{
   margin-top: 50px;
   background-color: #ECF0F1;
-  color: #2980B9;
+  color: #426E86;
   opacity: .8;
 }
 
 .bluefont{
-  color: #34495E;
+  color: #426E86;
 }
 
 
 .title{
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman", serif;
 }
 
 .service-header{
-  background-color: #27AE60;
+  background-color: #F9BA32;
 }
 .mockup-section{
   margin-top: 8%;
@@ -238,10 +253,10 @@ p{
 }
 
 .contact-header{
-  background-color: #E67E22;
+  background-color: #F8F1E5;
 }
 .description{
-  color: #34495E;
+  color: #426E86;
   margin-top: 0px;
   margin-bottom: 10px;
 }
@@ -262,6 +277,7 @@ p{
   text-align: left;
   background-color: #ECF0F1;
   right: 0px;
+  padding-top: 20px;
   margin-bottom: 50px;
   z-index: 1;
   border-top: .5px solid #00C7AB;
@@ -285,8 +301,19 @@ p{
   text-decoration: none;
 }
 
-.overflow{
-/*  overflow: hidden;*/
+.emailSubject{
+  width: 75%;
+}
+.emailBody{
+  width: 75%
+}
+.emailSend{
+  width: 25%;
+}
+.caption{
+  position: absolute; 
+  left:35%; 
+  bottom: 10px;
 }
 
 @media screen and (max-width: 990px) {
@@ -294,8 +321,22 @@ p{
   display: none;
 }
 }
+@media screen and (max-width: 765px) {
+.h1Work{
+  font-size: 40px;
+}
+.emailSend{
+  width: 75%;
+}
+.caption{
+  position: relative;
+  left: 0px;
+  padding-top: 25px;
+}
+}
 
 @media screen and (max-width: 725px) {
+
 .headline{
 font-size: 6em;
   color: #2980B9;
@@ -310,8 +351,22 @@ font-size: 6em;
   padding-bottom: 5px;
 }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 626px) {
+.h1Contact{
+  font-size: 40px;
+}
+  .h1Work{
+  font-size: 30px;
+}
+}
+@media screen and (max-width: 600px) {
 
+  .h1About{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 515px) {
 .headline{
 font-size: 5em;
   color: #2980B9;
@@ -320,7 +375,24 @@ font-size: 5em;
   margin-bottom: 0px;
   opacity: 1;
 }
+.h1Contact{
+  font-size: 35px;
 }
+}
+@media screen and (max-width: 500px) {
+.h1About{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 470px) {
+.h1Work{
+  font-size: 25px;
+}
+.h1Contact{
+  font-size: 30px;
+}
+}
+
 @media screen and (max-width: 450px) {
   .headline{
 font-size: 4em;
@@ -335,7 +407,10 @@ font-size: 4em;
   color: #2980B9;
   padding-bottom: 5px;
 }
+.overflow{
+  display: none;
   }
+}
 
 
 
