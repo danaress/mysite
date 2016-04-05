@@ -381,15 +381,15 @@ font-size: 5em;
 }
 @media screen and (max-width: 500px) {
 .h1About{
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 @media screen and (max-width: 470px) {
 .h1Work{
-  font-size: 25px;
+  font-size: 23px;
 }
 .h1Contact{
-  font-size: 30px;
+  font-size: 27px;
 }
 }
 
@@ -403,7 +403,7 @@ font-size: 4em;
   opacity: 1;
 }
 .subHeadline{
-  font-size: 24px;
+  font-size: 23px;
   color: #2980B9;
   padding-bottom: 5px;
 }
