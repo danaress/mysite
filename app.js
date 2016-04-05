@@ -35,7 +35,7 @@ res.end("sent");
 });
 });
 
-var port = 3000
+var port = 80
 app.listen(port, function(){
 
 })
