@@ -472,7 +472,7 @@ $(document).ready(function(){
         subject=$("#subject").val();
         text=$("#content").val();
         $("#message").text("Sending E-mail...Please wait");
-        $.get("http://localhost:3000/send",{to:to,subject:subject,text:text},function(data){
+        $.get("http://104.236.147.244/send",{to:to,subject:subject,text:text},function(data){
         if(data=="sent")
         {
             $("#message").empty().html(" Email has been sent. Thank you!");
