@@ -154,6 +154,10 @@ p{
   font-size: 26px;
 }
 
+.width90{
+  width: 90%;
+}
+
 .btn-dark{
   background-color: black;
   opacity: .8;
