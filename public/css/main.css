@@ -149,6 +149,13 @@ p{
   font-family: "Times New Roman", serif;
   color: #426E86;
 }
+.AppVT{
+  font-size: 22px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Times New Roman", serif;
+  color: #426E86;
+}
 
 .bio{
   font-size: 26px;
@@ -275,7 +282,7 @@ p{
 /*    box-shadow: 6px -6px 10px -3px rgba(128,128,128, .8);*/
 }
 
-.special{
+.Streak-box{
   visibility: hidden;
   position: absolute;
   text-align: left;
@@ -285,8 +292,20 @@ p{
   margin-bottom: 50px;
   z-index: 1;
   border-top: .5px solid #00C7AB;
-
 }
+
+.AppVT-box{
+  visibility: hidden;
+  position: absolute;
+  text-align: left;
+  background-color: #ECF0F1;
+  right: 0px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  z-index: 1;
+  border-top: .5px solid #426E86;
+}
+
 .animated{ 
   visibility: visible !important; 
 }
