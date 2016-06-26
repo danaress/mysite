@@ -20,24 +20,32 @@ p{
 
 .background{
   text-align: center;
-  background-color: rgba(255,255,255, .8);
+  background-color: rgba(255,255,255, .9);
   margin-top: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   top:0px;
 }
 
 .headline{
-  font-size: 8em;
+  font-size: 24px;
   color: #426E86;
-  margin-top: 0px;
-  padding-top: -10px;
+  margin-top: 10px;
   margin-bottom: 0px;
   opacity: 1;
 }
-.subHeadline{
-  font-size: 3em;
+
+.social{
+  position: absolute;
+
+  left: 10px;
+  bottom: 0px;
+}
+/*.subHeadline{
+  font-size: ;
   color: #426E86;
   padding-bottom: 5px;
-}
+}*/
 
 .btn-light{
   color: rgb(66,110,134);
@@ -98,7 +106,7 @@ p{
   color: #426E86;
 }
 .header{
-  color: white;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -313,10 +321,8 @@ p{
   margin-top: 50px;
 }
 .large{
-  text-align: left;
+  padding: 0 10px 5px;
   font-size: 65px;
-  margin-top: 40px;
-  margin-bottom: 40px;
   padding-top: none;
 }
 
@@ -339,80 +345,16 @@ p{
   bottom: 10px;
 }
 
-@media screen and (max-width: 990px) {
-#closeButton{
-  display: none;
-}
-}
-@media screen and (max-width: 765px) {
-.h1Work{
-  font-size: 40px;
-}
-.emailSend{
-  width: 75%;
-}
-.caption{
-  position: relative;
-  left: 0px;
-  padding-top: 25px;
-}
-}
 
-@media screen and (max-width: 725px) {
+/*@media screen and (max-width: 725px) {
 
 .headline{
-font-size: 6em;
+font-size: 24px;
   color: #2980B9;
   margin-top: 0px;
   padding-top: -10px;
   margin-bottom: 0px;
   opacity: 1;
-}
-.subHeadline{
-  font-size: 2em;
-  color: #2980B9;
-  padding-bottom: 5px;
-}
-}
-@media screen and (max-width: 626px) {
-.h1Contact{
-  font-size: 40px;
-}
-  .h1Work{
-  font-size: 30px;
-}
-}
-@media screen and (max-width: 600px) {
-
-  .h1About{
-    font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 515px) {
-.headline{
-font-size: 5em;
-  color: #2980B9;
-  margin-top: 0px;
-  padding-top: -10px;
-  margin-bottom: 0px;
-  opacity: 1;
-}
-.h1Contact{
-  font-size: 35px;
-}
-}
-@media screen and (max-width: 500px) {
-.h1About{
-    font-size: 27px;
-  }
-}
-@media screen and (max-width: 470px) {
-.h1Work{
-  font-size: 23px;
-}
-.h1Contact{
-  font-size: 27px;
 }
 }
 
@@ -425,15 +367,10 @@ font-size: 4em;
   margin-bottom: 0px;
   opacity: 1;
 }
-.subHeadline{
-  font-size: 23px;
-  color: #2980B9;
-  padding-bottom: 5px;
-}
 .overflow{
   display: none;
   }
-}
+}*/
 
 
 

@@ -1,14 +1,18 @@
 var express = require('express');
 var nodemailer = require("nodemailer");
 var app = express();
+// var connect = require('connect');
+// var emojiFavicon = require('emoji-favicon');
 
-var smtpTransport = nodemailer.createTransport("SMTP",{
-    service: "Gmail",
-    auth: {
+// var smtpTransport = nodemailer.createTransport("SMTP",{
+//     service: "Gmail",
+//     auth: {
 
-    }
-});
+//     }
+// });
 
+// connect()
+//     .use(emojiFavicon('fire'));
 
 
 app.use(express.static(__dirname + '/public'));
@@ -37,5 +41,6 @@ res.end("sent");
 
 var port = 80
 app.listen(port, function(){
+	console.log("running")
 
 })
