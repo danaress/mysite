@@ -12,22 +12,29 @@
     <title>Dana Ress</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
+<!--     <link href="./css/bootstrap.css" rel="stylesheet">
+ -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 
     <!-- Custom CSS -->
-    <link href="./css/stylish-portfolio.css" rel="stylesheet">
+    <link href="./css/port.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+
+
 </head>
 
-<bod>
+
+<body>
 
 
     <!-- Header -->
-    <header id="top" class="header">
+<!--     <header id="top" class="header">
             <div class="background">
             <h1 class="headline">Hey, I'm Dana.</h1>
             <h2 class="subHeadline">I live in Denver, Colorado.</h2>
@@ -36,9 +43,39 @@
             <h2 class="subHeadline">I also write a blog about startups and venture capital called <a href="https://colo.vc/">colo.vc</a>, and am working on a few web apps.</h2>
             <h3 class="subHeadline">I'm pretty easy to get ahold of on <a href="https://twitter.com/Dana_Ress" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> and <a href="https://angel.co/dana-r" target="_blank"><i class="fa fa-angellist" aria-hidden="true"></i></h3></a>
 
-    </header>
+    </header> -->
+<div id="github-commits"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col s10 offset-s1 test">
+            <br>
+            <h4 class="headline"><span class="hand">Hey</span>, I'm Dana.</h4>
+            <br>
+            <p class="subHeadline">I live and work in Denver, Colorado.</p>
+            <p class="subHeadline">Before CO I lived in NYC, VT, MA, & CT. <span class="baby">Way</span> back in the day I lived in IL & CA.</p>
+            <p class="subHeadline">I spend quite a bit of time working on product & strategy <a target="_blank" href="https://angel.co/zeeram/">@Zeeram</a>, trying to <span class="">simplify</span> the way people <span id="dino">work.</span></p>
+            <p class="subHeadline">I also spend time building side projects like <a href="">remindMeTo</a> and <a href="">colo.vc</a>, and hanging out in the mountains rock climbing and skiing.</p>
+            <p class="subHeadline">It's pretty easy to get ahold of me on <span class="space">_</span><a href="https://twitter.com/Dana_Ress" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><span class="space">_</span> and <span class="space">_</span><a href="https://angel.co/dana-r" target="_blank"><i class="fa fa-angellist" aria-hidden="true"></i></a>. Please feel free to say hi.</p>
+            <p class="subHeadline">Some things I'm thinking about:</p>
+
+
+            <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
+            <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+            <ul class="juicer-feed" data-feed-id="dana_ress"><h1 class="referral" style="visibility:hidden;"><a href="https://www.juicer.io">Powered by Juicer</a></h1></ul>
+
+            </div>
+
+    </div>
 
 
 </body>
 
+<script>
+    
+$("#dino").hover(function(){
+    $("#dino").text("get shit done.");
+    }, function(){
+        $("#dino").text("work.");
+});
+</script>
 </html>

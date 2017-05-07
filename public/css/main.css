@@ -1,23 +1,72 @@
 .background{
-  text-align: left;
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 100%);
-  height: 100%;
-  width: 40%;
+background-color: white;
+}
+.background:hover{
+  cursor: default;
 }
 
 .headline{
-  font-family: helvetica;
-  font-size: 3em;
-  color: #426E86;
-  margin-top: 0px;
-  padding-top: 25%;
-  padding-left: 10%;
-  margin-bottom: 0px;
-  opacity: 1;
+  padding: 0;
+margin-left: 1em;
 }
 .subHeadline{
-  font-family: helvetica;
-  font-size: 1.5em;
-  color: #426E86;
-  padding: 2% 10% 0% 10%;
+  padding-bottom: 10px;
+  margin-left: 2em;
+
 }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('OpenSans-Regular.ttf');
+}
+
+.headline:hover{
+  cursor: default;
+}
+
+.subHeadline:hover{
+  cursor: default;
+}
+
+.test{
+  margin-top: 2em;
+  border-left: 3px solid rgba(58, 58, 58, 0.701961);
+  border-right: 3px solid rgba(58, 58, 58, 0.701961);
+  font-family: myFirstFont;
+  color: rgba(58, 58, 58, 0.701961);
+  margin-bottom: 1em;
+}
+
+.hand:hover{
+  color: rgba(58, 58, 58, 0);
+  background: url(./hand.png) no-repeat center;
+  background-size: contain;
+  cursor: default;
+}
+
+.calm:hover{
+  color: rgba(58, 58, 58, 0);
+  background: url(./calm.png) no-repeat center;
+  background-size: contain;
+  cursor: default;
+}
+
+.baby:hover{
+  color: rgba(58, 58, 58, 0);
+  background: url(./baby.png) no-repeat center;
+  background-size: contain;
+  cursor: default;
+}
+
+.juicer-feed::-webkit-scrollbar { 
+    display: none; 
+}
+.space{
+  color: rgba(0,0,0, 0)
+}
+
+
+
+
+
+

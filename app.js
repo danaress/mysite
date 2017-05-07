@@ -8,7 +8,11 @@ app.get('/',function(req,res){
 res.sendfile('public/index.html');
 });
 
-var port = 80
+app.get('/proj',function(req,res){
+	
+});
+
+var port = 3000
 app.listen(port, function(){
 
 })
